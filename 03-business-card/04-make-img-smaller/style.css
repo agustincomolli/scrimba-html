@@ -1,0 +1,12 @@
+/*
+  Challenge:
+  Set the width of the image to 150px.
+  PS: Use a class to select the img element.
+*/
+body {
+  margin: 20px;
+}
+
+.prophile-image {
+  width: 150px;
+}

@@ -1,0 +1,21 @@
+/*
+  Challenge:
+  Create a utility class for the dotted blue border.
+  Give the class to both flexbox children in the HTML.
+*/
+body {
+  margin: 20px;
+}
+
+.border-blue {
+  border: 2px dotted blue;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+}
+
+.prophile-image {
+  width: 150px;
+}
