@@ -1,0 +1,24 @@
+/*
+  Challenge:
+  Give the card a width of 400px wide and center it.
+*/
+body {
+  margin: 20px;
+}
+
+.border-blue {
+  border: 2px dotted blue;
+}
+
+.card {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prophile-image {
+  width: 150px;
+}
