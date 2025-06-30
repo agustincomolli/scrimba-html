@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Medieval Alphabet';
+  src: url("./fonts/medieval-alphabet.ttf");
+}
+
+@font-face {
+  font-family: "Goudy Medieval";
+  src: url("./fonts/goudy-demibold.ttf");
+}
+
+h1 {
+  font-family: "Goudy Medieval";
+  text-align: center;
+  font-size: 3rem;
+}
+
+.first-paragraph {
+  font-size: 1.5rem;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.capital {
+  font-family: "Medieval Alphabet";
+  font-size: 160px;
+  position: relative;
+  float: left;
+  top: -10px;
+  margin-bottom: -40px;
+  margin-right: 4px;
+  color: darkcyan;
+}

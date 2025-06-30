@@ -1,0 +1,56 @@
+/*
+  Challenge:
+  Find a web safe font you like, and add it 
+  to your card.
+  Stretch goals:
+  Find other ways you can personalize 
+  the design of your business card, e.g.:
+  - change the border(s)
+  - add border radius
+  - shuffle the layout
+  - shadows        🤯
+  - hover effects  🤯🤯
+  - animations     🤯🤯🤯
+*/
+
+body {
+  margin: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.border-blue {
+  border: 2px dotted blue;
+}
+
+.card {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: #22333B;
+  background-color: #C6AC8F;
+  border-bottom: 8px solid #5E503F;
+  box-shadow: 6px 6px 10px gray;
+  animation: 5s linear 1s infinite alternate bounce;
+}
+
+.card:hover {
+  opacity: .9;
+  transform: scale(1.05);
+}
+
+.prophile-image {
+  width: 150px;
+  border-radius: 4px;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(-50vw);
+  }
+  to {
+    transform: translateX(50vw);
+  }
+}
