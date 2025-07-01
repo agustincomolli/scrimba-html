@@ -1,0 +1,46 @@
+/*
+  Challenge:
+  Wrap the "hero" section (title, button, logo) in a <div>
+  and set its background image to the galaxy image. This will 
+  force you to also add some padding on the "hero" <div>.
+
+  Add a "Terms and conditions apply" <h3> below the "hero"
+  section.
+
+  PS: your layout will likely be disturbed by the <body> 
+  tag's default margin.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+body {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: #82a5ca;
+  margin: 0;
+}
+
+.hero {
+  background-image: url("./images/galaxy.webp");
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 48px;
+}
+
+.btn {
+  padding: 8px 12px;
+  background-color: white;
+  border: none;
+  font-family: inherit;
+  color: #82a5ca;
+  font-weight: bold;
+}
+
+.underline {
+  border-bottom: 4px solid white;
+}
+
+#main-logo {
+  width: 100px;
+}

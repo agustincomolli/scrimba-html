@@ -1,0 +1,44 @@
+/*
+  Challenge:
+  Add a blurred border around the <h1> using
+  the text-shadow technique you just learned. Set
+  the blur to 4px and the color to black.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+body {
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  color: #82a5ca;
+  margin: 0;
+}
+
+h1 {
+  text-shadow: 0 0 4px black;
+}
+
+.hero {
+  background-image: url("./images/galaxy.webp");
+  background-size: cover;
+  padding-top: 10px;
+  padding-bottom: 48px;
+}
+
+.btn {
+  padding: 8px 12px;
+  background-color: white;
+  border: none;
+  font-family: inherit;
+  color: #82a5ca;
+  font-weight: bold;
+}
+
+.underline {
+  border-bottom: 4px solid white;
+}
+
+#main-logo {
+  width: 100px;
+}

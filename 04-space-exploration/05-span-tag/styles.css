@@ -1,0 +1,17 @@
+body {
+  background: whitesmoke;
+  color: whitesmoke;
+  font-family: 'Rammetto One', cursive;
+}
+
+.ad {
+  background: #35654d;
+  border: 5px solid #A3BC71;
+  text-align: center;
+}
+
+.call-to-action {
+  border: 2px solid #A3BC71;
+  padding: 4px 8px;
+  background-color: #8F4737;
+}
