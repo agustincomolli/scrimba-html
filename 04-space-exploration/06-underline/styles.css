@@ -7,7 +7,7 @@
 
 body {
   color: white;
-  background-image: url("./images/universe.jpg");
+  background-image: url("../assets/images/universe.jpg");
   background-size: cover;
   text-align: center;
   font-family: "Orbitron", sans-serif;

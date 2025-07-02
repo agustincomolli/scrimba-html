@@ -20,7 +20,7 @@ h1 {
 }
 
 .hero {
-  background-image: url("./images/galaxy.webp");
+  background-image: url("../assets/images/galaxy.webp");
   background-size: cover;
   padding-top: 10px;
   padding-bottom: 48px;
