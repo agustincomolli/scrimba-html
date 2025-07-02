@@ -1,0 +1,29 @@
+/*
+  Challenge:
+  Add a thin blurred border around the <h1>, <h2>, 
+  and <h4> using the text-shadow technique you 
+  learned in the Space Exploration section. Set
+  the blur to 1px and the color to black.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  background-color: #a2d2ff;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+
+.photo-birthday {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}

@@ -1,0 +1,23 @@
+/*
+  Challenge:
+  Add colors to the site based on the provided design.
+
+  pink: #EFB0C9
+  blue: #a2d2ff
+  white: #ffffff
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  background-color: #a2d2ff;
+  color: #ffffff;
+}
+
+.photo-birthday {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}
