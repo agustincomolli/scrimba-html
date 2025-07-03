@@ -1,0 +1,48 @@
+/*
+  Challenge:
+  Make the bday elements look like the
+  provided design slide.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  background-color: #a2d2ff;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+
+.age,
+.date {
+  background-color: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.age {
+  margin: 5px 0 10px 0;
+}
+
+.date {
+  margin: 0;
+}
+
+.photo-birthday {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}
