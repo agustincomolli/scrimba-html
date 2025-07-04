@@ -1,0 +1,86 @@
+/*
+Challenge:
+Create the next GIFt (hot.gif). Its HTML structure 
+should be like the previous one, but without the 
+"gift-hint" element.
+
+However, now that you have multiple GIFts on the page,
+you cannot use the "gift-img" class to set the GIF 
+background-image(s) on :hover. Each GIFt will need a 
+unique id that controls which background image that 
+should be shown when hovering over the element.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  background-color: #a2d2ff;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+
+.age,
+.date {
+  background-color: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.age {
+  margin: 5px 0 10px 0;
+}
+
+.date {
+  margin: 0;
+}
+
+.photo-birthday {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-instructions {
+  margin-top: 0;
+}
+
+.gift-image {
+  background-image: url("../assets/images/gift-cover.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+#happy-image:hover {
+  background-image: url("../assets/images/happy.gif");
+}
+
+#hot-image:hover {
+  background-image: url("../assets/images/hot.gif");
+}

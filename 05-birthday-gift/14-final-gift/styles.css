@@ -1,0 +1,101 @@
+/*
+Create the "cheers" GIFt section.
+
+Note: this GIFt should have a height of 200px. 
+Select the #gift-img-cheers id and override 
+the height that the element got from the 
+.gift-img class.
+
+Text: 
+This one's for you, my friend 🥂
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  background-color: #a2d2ff;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 1px black;
+}
+
+.age,
+.date {
+  background-color: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.age {
+  margin: 5px 0 10px 0;
+}
+
+.date {
+  margin: 0;
+}
+
+.photo-birthday {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #EFB0C9;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-instructions {
+  margin-top: 0;
+}
+
+.gift-image {
+  background-image: url("../assets/images/gift-cover.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+
+#happy-image:hover {
+  background-image: url("../assets/images/happy.gif");
+}
+
+#hot-image:hover {
+  background-image: url("../assets/images/hot.gif");
+}
+
+#genius-image:hover {
+  background-image: url("../assets/images/genius.gif");
+}
+
+#badass-image:hover {
+  background-image: url("../assets/images/badass.gif");
+}
+
+#cheers-image {
+  height: 200px;
+}
+
+#cheers-image:hover {
+  background-image: url("../assets/images/cheers.gif");
+}
